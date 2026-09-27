@@ -100,7 +100,7 @@ if case == "C":
 if case == "D":
     if v5 == True:
         offset = offset + 2
-    if v3 == True:
+    if v2 == True:
         offset = offset - 1
     if v7 == True:
          offset = offset + 4
@@ -141,5 +141,8 @@ if case == "G":
         offset = offset + 2
 if offset >= 10:
     offset = offset - 10
+if offset < 10:
+    offset = offset + 10
+
 print(case)
 print("Press the button", offset, "times")
