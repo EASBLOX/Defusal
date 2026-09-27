@@ -34,12 +34,12 @@ if old == "yes":
     v2 = True
 else:
     v2 = False
-low = input("is there mid(not lit)")
+low = input("is there low(not lit)")
 if low == "yes":
     v3 = True
 else:
     v3 = False
-mid = input("is there low(not lit)")
+mid = input("is there mid(not lit)")
 if mid == "yes":
     v4 = True
 else:
@@ -54,12 +54,12 @@ if oldlit == "yes":
     v6 = True
 else:
     v6 = False
-lowlit = input("is there mid(lit)")
+lowlit = input("is there low(lit)")
 if lowlit == "yes":
     v7 = True
 else:
     v7 = False
-midlit = input("is there low(lit)")
+midlit = input("is there mid(lit)")
 if midlit == "yes":
     v8 = True
 else:
