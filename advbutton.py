@@ -141,7 +141,7 @@ if case == "G":
         offset = offset + 2
 if offset >= 10:
     offset = offset - 10
-if offset < 10:
+if offset < 0:
     offset = offset + 10
 
 print(case)
